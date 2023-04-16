@@ -38,7 +38,7 @@ function ResizablePanel({
           transition={{ duration }}
           className="relative"
         >
-          <div ref={ref} className={clsx("p-8 absolute inset-x-0 ")}>
+          <div ref={ref} className={clsx("p-2 absolute inset-x-0 ")}>
             {children}
           </div>
         </motion.div>
